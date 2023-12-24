@@ -25,8 +25,8 @@ default_vpc_id        = "vpc-053d5cff1ef7e1fd2"
 default_vpc_rt        = "rtb-0afb751f902c88904"
 allow_ssh_cidr        = ["172.31.0.0/16"]
 zone_id               = "Z019183117R4826VIH8DK" 
-kms_key_id            = "f0a71b80-90c3-4da1-a189-b4b95e9764e8"
-kms_key_arn           = "arn:aws:kms:us-east-1:739561048503:key/f0a71b80-90c3-4da1-a189-b4b95e9764e8"
+kms_key_id            = "5ec11a95-aaa2-436e-b543-a07b1932618f"
+kms_key_arn           = "arn:aws:kms:us-east-1:582046839644:key/5ec11a95-aaa2-436e-b543-a07b1932618f"
 //allow_prometheus_cidr = ["172.31.95.219/32"]
 
 rabbitmq = {
