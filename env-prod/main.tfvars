@@ -156,12 +156,12 @@ apps = {
   }
 }
 
-# eks = {
-#   main = {
-#     subnet_ref     = "app"
-#     min_size       = 3
-#     max_size       = 3
-#     capacity_type  = "SPOT"
-#     instance_types = ["t3.2xlarge"]
-#   }
-# }
+eks = {
+  main = {
+    subnet_ref     = "app"
+    min_size       = 3
+    max_size       = 3
+    capacity_type  = "SPOT"
+    instance_types = ["t3.2xlarge"]
+  }
+}
